@@ -13,7 +13,8 @@
         android:layout_margin="25dp"
         android:background="@color/card_foreground"
         app:cardCornerRadius="25dp"
-        android:elevation="20dp">
+        android:elevation="20dp"
+        android:backgroundTint="#DCD6F7 ">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -31,15 +32,16 @@
 
             <TextView
                 android:id="@+id/profile_name"
-                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
                 app:layout_constraintTop_toBottomOf="@id/profile_image"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginTop="50dp"
                 tools:text="First Last"
+                android:background="#A6B1E1"
                 android:textSize="24sp"
-                android:textColor="@color/black"
+                android:textColor="#3A405A"
                 android:textStyle="bold"
                 android:textAllCaps="true"/>
 
@@ -50,9 +52,11 @@
                 app:layout_constraintTop_toBottomOf="@id/profile_name"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:text="@string/profile_bio_text"
-                android:textSize="16sp"/>
+                android:textColor="#17183B"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-condensed-medium"/>
 
             <TextView
                 android:id="@+id/profile_hobby_header"
@@ -64,7 +68,8 @@
                 android:layout_marginTop="50dp"
                 android:text="@string/profile_hobby_header_text"
                 android:textSize="18sp"
-                android:textColor="@color/black"/>
+                android:textColor="#2B2D42"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/profile_hobby_first"
@@ -75,7 +80,9 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginTop="10dp"
                 android:text="@string/profile_hobby_first_text"
-                android:textSize="15sp"/>
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#383D57"/>
 
             <TextView
                 android:id="@+id/profile_hobby_second"
@@ -86,7 +93,9 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginTop="5dp"
                 android:text="@string/profile_hobby_second_text"
-                android:textSize="15sp"/>
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#383D57"/>
 
             <TextView
                 android:id="@+id/profile_hobby_third"
@@ -97,7 +106,9 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginTop="5dp"
                 android:text="@string/profile_hobby_third_text"
-                android:textSize="15sp"/>
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#383D57"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
