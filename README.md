@@ -35,7 +35,7 @@ The following EXTRA features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='[https://i.imgur.com/dQITv9V.gif](https://i.imgur.com/IFWT48a.gif)' title='Hello Squirrel' width='40' alt='Hello Squirrel' />
+<img src='[https://i.imgur.com/dQITv9V.gif](https://i.imgur.com/IFWT48a.gif)' title='Hello Squirrel' />
 
 GIF created with [Kap](https://getkap.co/) for macOS
 
